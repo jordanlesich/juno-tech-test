@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/04bdecfe3a.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300, 400, 500|Montserrat:300,400,500&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='styles/styles.css'>
+    <link rel='stylesheet' href='styles/mediaQueries.css'>
+    <title>Juno Tech Challenge</title>
+</head>
+<body>
+    <section id='intro-Container'>
+    
+        <nav id="navContainer" class='closeMenu'>
+            <div class='brandLink'>
+            <a href=""><img src='assets/juno-logo.png' 
+                alt='Juno College logo' id='navBrand'/>
+            </a>
+            </div>
+            <a href='#mastheadContainer' class='navLink'>Course</a>
+            <a href='#article3' class='navLink'>About</a>
+            <a href='#relatedPostSection' class='navLink'>Allumni</a>
+            <a href='#blog' class='navLink'>Blog</a>
+            <button id='barsBtn' onClick='toggleNavOpen()'>
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+        <div id='imgWrapper'>
+            <img src='assets/image-1.jpg' id="bannerImg" alt="students coding with teacher"/>
+        </div>
+        <header id="mastheadContainer">
+            <h1 id="masthead">Tech Challenge</h1>
+            <p id="mastSubText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut dolorum quaerat unde minus, reprehenderit pariatur assumenda illum quasi velit. Id cum totam praesentium maiores adipisci optio possimus </p>
+        </header>
+    </section>
+    <section id='blog'>
+       <h2 id='blogHeading'>Blog</h2>
+       <article id='article1' class='blogCard' >
+            <img src='assets/image-2.jpg' class='blogImage' alt='three teachers posing in denim'/>
+            <div class='cardBody'>
+                <p class='blogDate'>mar 9, 2019</p>
+                <h3 class='blogTitle'>Juno Tech Test</h3>
+                <p class="blogText">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, repellendus quam!</p>
+                <button class='blogButton'>Read more</button>
+            </div>
+                
+        </article>
+       <article id='article2' class='blogCard' >
+        <img src='assets/image-3.jpg' class='blogImage' alt="teacher listening to student's question"/>
+        <div class='cardBody'>
+            <p class='blogDate'>mar 13, 2019</p>
+            <h3 class='blogTitle'>Juno Tech Test</h3> 
+            <p class="blogText">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, repellendus quam!</p>
+            <button class='blogButton'>Read more</button>
+        </div>
+            
+        </article>
+       <aside id='article3'  class="blogCard">
+            <img src='assets/image-4.jpg' class='blogImage-Long' alt='teacher lecturing'/>
+            <div class='cardBody'>
+                <h3 class='blogTitle' id='aboutUsTitle'>About Us</h3>
+                
+                <p id="aboutUsText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, nesciunt libero. Voluptatum mollitia corrupti fuga consequatur, tempora earum impedit consectetur, unde, cupiditate ratione accusantium enim possimus. Deleniti aliquam similique eius libero aspernatur unde dolorem placeat reprehenderit voluptatem! Ut provident quibusdam sint officia laudantium. Deserunt porro eligendi id unde dolorem eos illo nisi modi pariatur voluptate illum beatae, impedit ad nulla?</p>
+            </div>
+       </aside>
+       <article id='article4' class='blogCard' >
+            <img src='assets/image-5.jpg' class='blogImage' alt='two students coding'/>
+            <div class='cardBody'>
+                <p class='blogDate'>apr 15, 2019</p>
+                <h3 class='blogTitle'>Juno Tech Test</h3>
+                <p class="blogText">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam est vitae nobis saepe vero vel ipsam qui quasi atque, error repudiandae dicta commodi at natus esse maiores sit! Error, excepturi!</p>
+                <button class='blogButton blogButton-widePanel'>Read More</button>
+            </div>
+                
+        </article>
+    </section>
+
+
+   
+       
+        <section id='relatedPostSection'>
+            
+             <h2 id='relatedPostsHeading'>Related Post:</h2>
+             
+            <article id='related-article1' class='blogCard-related' >
+                <img src='assets/image-2.jpg' class='blogImage' alt='three teachers posing in denim'/>
+                <div class='cardBody'>
+                    <p class='blogDate'>mar 9, 2019</p>
+                    <h3 class='blogTitle'>Juno Tech Test</h3>
+                    <p class="blogText">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, repellendus quam!</p>
+                    <button class='blogButton-related'>Read More</button>
+                </div>
+                    
+            </article>
+            <article id='related-article2' class='blogCard-related' >
+                <img src='assets/image-3.jpg' class='blogImage'alt="teacher listening to student's question"/>
+                <div class='cardBody'>
+                    <p class='blogDate'>mar 15, 2019</p>
+                    <h3 class='blogTitle'>Juno Tech Test</h3> 
+                    <p class="blogText">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, repellendus quam!</p>
+                    <button class='blogButton-related'>Read More</button>
+                </div>
+                    
+                </article>
+            <article id='related-article3' class='blogCard-related' >
+                <img src='assets/image-3.jpg' class='blogImage' alt="teacher listening to student's question"/>
+                <div class='cardBody'>
+                    <p class='blogDate'>apr 15, 2019</p>
+                    <h3 class='blogTitle'>Juno Tech Test</h3> 
+                    <p class="blogText">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, repellendus quam!</p>
+                    <button class='blogButton-related'>Read More</button>
+                </div>
+                   
+                </article>
+        </section>
+
+        
+        <footer>
+            <nav id='footerNav'>
+                <img src='assets/Juno-logo-white.png' 
+                alt='Juno College logo' id='footerBrand'/>
+                <h3 id='footerHeading'>Juno Tech Test</h3>
+                <p class='footerText'>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima similique quae exercitationem?</p>
+                <div id=navLinks-footer>
+                    <a href='#' class='footerNavLink'>Home</a>
+                    <a href='#mastheadContainer' class='footerNavLink'>Course</a>
+                    <a href='#article3' class='footerNavLink'>About</a>
+                    <a href='#relatedPostsSection' class='footerNavLink'>Alumni</a>
+                    <a href='#blog' class='footerNavLink'>Blog</a>
+                   
+                </div>
+                <p id='copyrightText'> &#9400; 2012-2019 Juno College of Technology</p>
+            </nav>
+            <section id=mailingListBox>
+                <form id='joinForm'>
+                    <label for='emailInput' id='formLabel'>Join our mailing list</label>
+                    <div id='button-wrapper-email'>
+                    <input type='email' id='emailInput' placeholder="Your email address">
+                    
+                    <button type='submit' id='formButton'>Subscribe</button>
+                    </div>
+                    <p id='footerText'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde.</p> 
+                    <div id='socialMedia'>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-github"></i>
+                    </div>
+                </form>
+            </section>
+        </footer>
+    </section>
+      
+    <script>
+        function toggleNavOpen() {
+            var topNav = document.getElementById("navContainer");
+
+            if (topNav.className === "closeMenu") {
+            topNav.className = "openMenu";
+            } 
+            else {
+            topNav.className = "closeMenu";
+            }
+        }
+    </script>
+    
+</body>
+</html>
